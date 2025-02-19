@@ -6,9 +6,9 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        String student1 = "/Users/siddhu/Desktop/cg-tut/Week5/Day01-CsvDataHandling/src/main/resources/student1.csv";
-        String student2 = "/Users/siddhu/Desktop/cg-tut/Week5/Day01-CsvDataHandling/src/main/resources/student2.csv";
-        String studentMaster= "/Users/siddhu/Desktop/cg-tut/Week5/Day01-CsvDataHandling/src/main/resources/studentMaster.csv";
+        String student1 = "D:\\Week05\\Day01--CSVDataHandling\\src\\main\\resources\\student1.csv";
+        String student2 = "D:\\Week05\\Day01--CSVDataHandling\\src\\main\\resources\\student2.csv";
+        String studentMaster= "D:\\Week05\\Day01--CSVDataHandling\\src\\main\\resources\\studentmaster.csv";
 
 
         try(BufferedReader bufferedReader1 = new BufferedReader(new FileReader(student1));
