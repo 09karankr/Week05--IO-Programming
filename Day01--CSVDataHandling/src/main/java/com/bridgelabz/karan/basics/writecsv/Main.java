@@ -19,7 +19,7 @@ public class Main {
                 bufferedWriter.write(string+"\n");
 
             }
-            System.out.println("File successfully written !");
+            System.out.println("File successfully written ! and it is written");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
